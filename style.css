@@ -1,0 +1,1032 @@
+@import url('https://fonts.googleapis.com/css2?family=Chiron+Sung+HK:ital,wght@0,200..900;1,200..900&family=Cookie&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Kapakana:wght@300..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chiron+Sung+HK:ital,wght@0,200..900;1,200..900&family=Cookie&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Kapakana:wght@300..400&family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chiron+Sung+HK:ital,wght@0,200..900;1,200..900&family=Cookie&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Text:ital@0;1&family=Kapakana:wght@300..400&family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=DM+Serif+Text:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=DM+Serif+Text:ital@0;1&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=DM+Serif+Text:ital@0;1&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.main-content {
+font-family: "DM Sans", sans-serif;
+padding-top: 90px;
+font-size: 45px;
+
+}
+
+.ac {
+    font-weight: 800;
+    font-size: 64px;
+    color: #ffd700;
+    font-family: "Oswald";
+}
+
+h2 {
+   color: #ffffff;
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+align-items: center;
+}
+
+#main {
+background-image: url('./img/banner2.jpg');
+min-height: 100vh;
+background-position: top;
+background-size: cover;
+backdrop-filter: blur();
+max-width: 1500px;
+}
+
+font {
+visibility: hidden;
+padding: 10px;
+}
+
+#logo {
+    height: 70px;
+    width: 70px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.home {
+    background-color: ;
+    width: px;
+    text-align: center;
+    height: px;
+    border-radius: 10px;
+    font-family: "Comfortaa";
+
+}
+
+.paintings {
+    background-color: ;
+    width: px;
+    text-align: center;
+    height: px;
+    border-radius: 10px;
+    font-family: "Comfortaa";
+
+}
+
+.sketches {
+    background-color: ;
+    width: px;
+    text-align: center;
+    height: px;
+    border-radius: 10px;
+    font-family: "Comfortaa";
+
+}
+
+.gp {
+    background-color: ;
+    width:  px;
+    text-align: center;
+    height: px;
+    border-radius: 10px;
+    font-family: "Comfortaa";
+
+}
+
+.rangolis {
+    background-color: ;
+    width: px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: "Comfortaa";
+
+}
+
+.bow {
+    background-color: ;
+    width: px;
+    text-align: center;
+    height: px;
+    border-radius: 10px;
+    font-family: "Comfortaa";
+
+}
+
+.container {
+
+    align-items: center;
+    text-align: center;
+    font-family: "Comfortaa";
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+background-color: ;
+font-family: Abril Fatface;
+}
+
+.navbar {
+    background-color:;
+    color: #ffffff;
+    width: 100%;
+    align-items: center;
+}
+
+.nav-list {
+display: flex;
+gap: 20px;
+list-style: none;
+align-items: center;
+font-family: "Abril Fatface", sans-serif;
+font-size: 20px;
+font-weight: 500;
+margin-right: 70px;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: white;
+}
+
+.mobile-logo {
+        display: block;
+    }
+
+.main-content {
+    position: absolute;
+    justify-content: center;
+    align-content: center;
+    color: #ffffff;
+}
+
+.menu-btn {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    width: 30px;
+    display: none;
+}
+
+    .wonders{
+    
+  color:;
+  font-family: "DM Sans";
+    }
+
+    .wk {
+color:rgb(240, 240, 240);
+  font-family: "DM Sans";
+  font-weight: 900;
+
+    }
+   
+#founder {
+    background: -webkit-linear-gradient();
+    background-color: #34adfe;  
+    
+    color:#ffffff;
+    align-items: center;
+ 
+}
+
+
+
+.founder-content {
+text-align: center;
+align-items: center;
+font-family: "Poppins", sans-serif;
+font-size: 50px;
+padding-top: -300px;
+font-weight: 700;
+color: #080766;
+background-color: #34ADFE;
+}
+
+ .popu {
+        color: #ffd100;
+        
+        font-weight: ;
+        
+    }
+
+.hih {
+    text-align: center;
+    height: 90px;
+    color: #ffd100;
+    margin-top: 30px;
+    font-size: 70px;
+    align-items: center;
+    background-color: #34ADFE;
+    font-family:"DM Sans", sans-serif;
+    width: 350px;
+    font-weight: 800;
+    border-radius: 25px;
+    border: solid 5px #ffd100;
+    box-shadow: 5px 3px 3px rgb(0, 2, 26); 
+    background: -webkit-radial-gradient(circle,rgb(241, 5, 143) 16%, #c003fa 100%, #420366);
+
+ 
+    }
+
+    .how-content {
+        color: #ffffff; 
+        font-family: DM Sans;
+        margin-left: 5px;
+        font-size: 20px;
+        margin-top: 20px;
+        background-color: #34ADFE;
+        font-weight: 700;
+    }
+
+    #benefits_aboutform {
+        background-color: #34ADFE;
+        height: fit-content;
+        padding-top: 50px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 50px;
+        max-width: 1500px;
+        
+    }
+
+    .benefits {
+        background-color: #ffffff;
+        height: 300px;
+        width: 300px;
+        border-radius: 20px;
+        align-self: center;
+        align-items: center;
+        margin: auto;
+        box-shadow: 10px 5px 5px rgb(0, 4, 255); 
+        font-size: 35px;
+        color: #000000 ;
+
+    }
+
+    .aboutform {
+        background-color: #ffffff;   
+        height: 300px;
+        width: 300px;
+        border-radius: 20px;
+        margin-left: 100px;
+        box-shadow: 10px 5px 5px rgb(0, 4, 255); 
+        color:#000000;
+        font-size: 35px;
+    }
+
+    .benefits_heading {
+        font-family: "DM Sans" ;
+        font-weight: 700;
+        color: #080766;
+    }
+
+    .aboutform_heading {
+        font-family: "DM Sans" ;
+        font-weight: 700;
+        color: #080766;
+    }
+
+    #work {
+        align-items: center;
+        background-color:rgb(56, 12, 97);
+        height: fit-content;
+    }
+
+    .worksthree {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .exp {
+        padding-top: 10px;
+        font-size: 50px;
+        display:block;
+         background: -webkit-linear-gradient(90deg, #03f590 50%, #e5f503 100% );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Playfair Display;
+  font-weight: 700;
+    }
+
+    .years {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 80px;
+      max-width: 1500px;
+      background-color: #ffd900;
+      overflow-y: hidden;
+      height: 300px;
+      width: 300px;
+      font-size: 30px;
+      font-family: DM Sans;
+      font-weight: 700;
+      align-content:center;
+      border: solid 5px white;
+      border-radius: 15px;
+
+    }
+
+    .five {
+        color:rgb(6, 106, 219);
+        font-size: 75px;
+        align-items: center;
+        text-align: center;
+    }
+
+     .HOC {font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 80px;
+      max-width: 1500px;
+      background-color: #ffd900;
+      overflow-y: hidden;
+      height: 300px;
+      width: 300px;
+      font-size: 30px;
+      font-family: DM Sans;
+      font-weight: 700;
+      align-content: center;
+      justify-content: center;
+      align-self: center;
+      border: solid 5px white;
+      border-radius: 15px;
+    }
+
+    .hoursofcode {
+        color:rgb(0, 6, 14);
+        font-size: 75px;
+        align-items: center;
+        font-size: 30px;
+    }
+
+     .LOC {font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 80px;
+      max-width: 1500px;
+      background-color: #ffd900;
+      overflow-y: hidden;
+      height: 300px;
+      width: 300px;
+      font-size: 30px;
+      font-family: DM Sans;
+      font-weight: 700;
+      align-content: center;
+      justify-content: center;
+      align-self: center;
+      border: solid 5px white;
+      border-radius: 15px;
+    }
+
+    .linesofcode {
+        color:rgb(0, 6, 14);
+        font-size: 75px;
+        align-items: center;
+        font-size: 30px;
+    }
+
+    .aboutcon {
+        font-size: 30px;
+        font-family: Abril Fatface;
+        color:#c003fa ;
+    }
+
+    .bencon {
+        font-family: Playfair Display;
+        font-size: 25px;
+        color: crimson;
+    }
+
+    .footerac {
+        font-size: 16px;
+        color: white;
+        background-color: #494848;
+        padding-top: 30px;
+        font-family: Arial, sans-serif;
+        padding-bottom: 30px;
+    }
+
+    .mail {
+        color:#420366;
+    }
+
+    .sections {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        align-content: center  ;
+        margin-left: 80px;
+    }
+
+    .sec2 {
+        text-align: left;
+        margin-left: 40px;
+    }
+
+    .sec1 {
+        text-align: left;
+        margin-right: 40px;
+    }
+
+    .vl {
+  border-left: 6px solid rgb(253, 251, 251);
+  height: 100px;
+  margin-left: 0px;
+}
+
+    .exphr {
+        height: 5px;
+        background-color: #03f590;
+        border-width: 0px;
+    }
+
+    @media screen and (max-width: 450px) {
+        .sections {
+            margin-left: 5px;
+            flex-direction:;
+            font-size: 16px;
+        }
+
+        .vl {
+            margin-left: 10px;
+            justify-content: center;
+        }
+
+        .sec1 {
+            margin-left: 20px;
+            margin-right: 0px;
+        }
+
+        .sec2 {
+            margin-left: 10px;
+        }
+        
+    }
+
+@media screen and (max-width: 1130px) {
+
+    .main-content {
+        align-content: center;
+        justify-content: center;
+        z-index: -1;
+    }
+    .nav-list {
+        flex-direction: column;
+        background-color: #fffefb);
+        position: fixed ;
+        left: -900px;
+        top: 0;
+        height: 100vh;
+        width: 80%;
+        padding-top: 300px;
+        transition: all 1s ease-in-out;
+        z-index: 1;
+        
+    }
+
+    .navbar {
+        background-color: #08aaf56e;
+        mix-blend-mode:;
+    }
+
+    .nav-list a{
+        color: #ffffff;
+    }
+
+    .home {
+        background-color: blue;
+        border-radius: 5px;
+        border-bottom: 0px solid red;
+        height: 40px;
+        opacity: 1.0;
+
+    }
+
+    .gp {
+        background-color: #f73131ef;
+        border-color:#f8f0f0; 
+        border-radius: 5px;
+        border-width: 10px;
+        border: 5px solid round;
+        border-bottom: 10px #ffffff;
+        margin-top: -15px;
+        height: 40px;
+    }
+
+    .paintings {
+        background-color: #f73131ef; 
+        border-radius: 5px;
+        margin-top: -15px;
+        height: 40px;
+    }
+
+    .sketches {
+        background-color: #f73131ef;
+        border-color:#f8f0f0; 
+        border-radius: 5px;
+        border-width: 10px;
+        border: 5px solid round;
+        margin-top: -15px;
+        height: 40px;
+    }
+
+    .bow {
+        background-color: #f73131ef;
+        border-color:#f8f0f0; 
+        border-radius: 5px;
+        border-width: 10px;
+        border: 5px solid round;
+        margin-top: -15px;
+        height: 40px;
+    }
+
+    .rangolis {
+        background-color: #f73131ef;
+        border-color:#f8f0f0; 
+        border-radius: 5px;
+        border-width: 10px;
+        border: 5px solid round;
+        margin-top: -15px;
+         height: 45px;
+    }
+
+    .section-title {
+    font-size: 60px;
+    padding-top: 0px;
+    position: ;
+    align-items: center;
+    text-align: center;
+    font-size: "Georgia", Sans serif;
+}
+
+    .nav-list.active{
+        left: 0;
+    }
+    
+    font {
+    margin-top: 10px;
+    visibility: visible;
+    margin-right: 300px;
+    font-size: 35px;
+    color: #ffffff;
+    font-family: "Comfortaa";
+    }
+
+    hr{
+        width: 300px;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+    .nav-list li {
+        text-align: left;
+        width: 100%;
+        padding: 10px;
+        border-bottom: 1px solid w:inline-block
+    }
+
+    #founder {
+        align-items: center;
+        position: absolute;
+    }
+
+    #benefits_aboutform{
+        display: flex;
+        flex-direction: row ;
+        position: ;
+        justify-content: center;
+        position: ;
+        padding-top: 200px;
+        max-width: 1500px;
+        justify-content: center;
+    }
+
+    .benefits {
+        margin-top: 800px;
+        
+
+    }
+
+    .aboutform {
+        margin-top:  ;
+        margin-left: ;
+    }
+
+   .years {
+    margin-left: -20px;
+   }
+
+   .sections {
+    flex-direction: ;
+   }
+
+   .vl {
+    visibility: ;
+   }
+
+}
+
+@media screen and (max-width: 1015px){
+    font {
+        margin-right: 150px;
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    #founder {
+        height:fit-content;
+    }
+}
+
+@media screen and (max-width: 433px) {
+    .main-content {
+        align-content: center;
+    }
+
+    .hih {
+        
+    }
+
+     font {
+    margin-top: 20px;
+    visibility: visible;
+    margin-right: 300px;
+    font-size: 35px;
+    color: #ffffff;
+    font-family: "Comfortaa";
+    }
+    
+    .hih {
+        
+    }
+
+    #founder {
+        height: fit-content;
+        
+    }
+}
+
+@media screen and (min-width: 433px) {
+    font {
+        padding-top: 0px;
+    }
+}
+
+@media screen and (max-width: 1115px) {
+
+    #benefits_aboutform{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        max-width: 1500px;
+        justify-content: center;
+    }
+
+    .benefits {
+        margin-top: 300px;
+    }
+
+    .aboutform {
+        margin-top: 10px;
+        margin-left: -5px;
+    }
+    
+}
+
+@media screen and (max-width: 941px) {
+
+    #benefits_aboutform{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        max-width: 1500px;
+        justify-content: center;
+    }
+
+    .benefits {
+        margin-top: 280px;
+    }
+
+    .aboutform {
+        margin-top: 20px;
+        margin-left: -5px;
+    }
+    
+}
+
+@media screen and (max-width: 915px) {
+
+    #benefits_aboutform{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        max-width: 1500px;
+        justify-content: center;
+    }
+
+    .benefits {
+        margin-top: 400px;
+    }
+
+    .aboutform {
+        margin-top: 20px;
+        margin-left: -5px;
+    }
+    
+}
+
+@media screen and (max-width: 784px) {
+
+    #benefits_aboutform{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        max-width: 1500px;
+        justify-content: center;
+    }
+
+    .benefits {
+        margin-top: 440px;
+    }
+
+    .aboutform {
+        margin-top: 20px;
+        margin-left: -5px;
+    }
+
+    .main-content {
+        font-size: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 650px) {
+
+    .main-content {
+        font-size: 50px;
+    }
+
+    #benefits_aboutform{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        max-width: 1500px;
+        justify-content: center;
+    }
+
+    .benefits {
+        margin-top: 500px;
+    }
+
+    .aboutform {
+        margin-top: 20px;
+        margin-left: -5px;
+    }
+    
+    .main-content {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 595px) {
+
+    #benefits_aboutform{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        max-width: 1500px;
+        justify-content: center;
+    }
+
+    .benefits {
+        margin-top: 600px;
+    }
+
+    .aboutform {
+        margin-top: 20px;
+        margin-left: -5px;
+    }
+    
+}
+
+@media screen and (max-width: 575px) {
+
+    #benefits_aboutform{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        max-width: 1500px;
+        justify-content: center;
+    }
+
+    .benefits {
+        margin-top: 600px;
+    }
+
+    .aboutform {
+        margin-top: 20px;
+        margin-left: -5px;
+    }
+    
+}
+
+@media screen and (max-width: 560px) {
+
+    #benefits_aboutform{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        max-width: 1500px;
+        justify-content: center;
+    }
+
+    .benefits {
+        margin-top: 650px;
+    }
+
+    .aboutform {
+        margin-top: 20px;
+        margin-left: -5px;
+    }
+    
+}
+
+@media screen and (max-width: 526px) {
+
+    #benefits_aboutform{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        max-width: 1500px;
+        justify-content: center;
+    }
+
+    .benefits {
+        margin-top: 650px;
+    }
+
+    .aboutform {
+        margin-top: 20px;
+        margin-left: -5px;
+    }
+    
+}
+
+@media screen and (max-width: 497px) {
+
+    #benefits_aboutform{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        max-width: 1500px;
+        justify-content: center;
+    }
+
+    .benefits {
+        margin-top: 650px;
+    }
+
+    .aboutform {
+        margin-top: 20px;
+        margin-left: -5px;
+    }
+    
+}
+
+@media screen and (max-width: 483px) {
+
+    #benefits_aboutform{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        max-width: 1500px;
+        justify-content: center;
+    }
+
+    .benefits {
+        margin-top: 750px;
+    }
+
+    .aboutform {
+        margin-top: 20px;
+        margin-left: -5px;
+    }
+    
+}
+
+@media screen and (max-width: 478px) {
+    .main-content {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 457px) {
+
+    #benefits_aboutform{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        max-width: 1500px;
+        justify-content: center;
+    }
+
+    .benefits {
+        margin-top: 780px;
+    }
+
+    .aboutform {
+        margin-top: 20px;
+        margin-left: -5px;
+    }
+    
+}
+
+@media screen and (max-width: 425px) {
+
+    .founder-content {
+        font-size: 27px;
+    }
+
+    #benefits_aboutform{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        max-width: 1500px;
+        justify-content: center;
+    }
+
+    .benefits {
+        margin-top: 600px;
+    }
+
+    .aboutform {
+        margin-top: 70px;
+        margin-left: -5px;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+
+    .worksthree {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 801px) {
+
+
+    .HOC {
+margin-left: 20px;
+    }
+
+    .LOC {
+margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 628px) {
+
+    .founder-content {
+        font-size:px;
+    }
+
+}
