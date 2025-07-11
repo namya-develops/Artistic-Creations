@@ -39,7 +39,7 @@ align-items: center;
 }
 
 #main {
-background-image: url('banner2.jpg');
+background-image: url('/banner2.jpg');
 align-items: center;
 justify-content: center;
 min-height: 100vh;
