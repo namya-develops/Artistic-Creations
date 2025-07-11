@@ -15,7 +15,7 @@
 <div class="container">
     <div class="navbar">
     <nav>
-        <img id="logo" src="IMG-20250618-WA0020.jpg">
+        <img id="logo" src="/img/IMG-20250618-WA0020.jpg">
       <font><b>ARTISTIC CREATIONS</b></font>
         <ul class="nav-list">
             
@@ -27,7 +27,7 @@
             <li class="rangolis"> <a href="#"><b> Rangolis </b></a> </li> 
 
         </ul>
-    <img src="icons8-menu.svg" alt="" class="menu-btn">
+    <img src="./img/icons8-menu.svg" alt="" class="menu-btn">
     </nav>
     </div>
 <div class="main-content">
@@ -60,9 +60,9 @@
 
     </div>
 
-   <center> <div class="hih">The Vision</div> </center> 
+   <center> <div class="hih">THE VISION</div> </center> 
     <div class="how-content">
-    Inspired by my Mom (Vaishali Shah - Founder), with support from Harsh Trivedi and Kavyan Khatri ,
+    Inspired by my Mom (<span class="vcs">Vaishali Shah - Founder</span>), with support from Harsh Trivedi and Kavyan Khatri ,
     I want to dedicate the space of this website to the artists who want to showcase their Artistic Creations, 
     with an aim to simplify, enhance and contribute to the process of sharing creative ideas and talents to the world of art.
     You are welcomed to explore various creations by the community of artists ranging from students of primary section to experienced artists. 
@@ -182,6 +182,26 @@
             </center>
         
     </footer>
+
+    <script>
+let lastScrollTop = 0;
+const navbar = document.querySelector('.navbar');
+
+window.addEventListener('scroll', () => {
+  const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+  if (scrollTop > lastScrollTop) {
+    // Scrolling down
+    navbar.style.top = "-100px"; // hide navbar
+  } else {
+    // Scrolling up
+    navbar.style.top = "0"; // show navbar
+  }
+
+  lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // avoid negative
+});
+</script>
+
 
 </body>
 </html>
